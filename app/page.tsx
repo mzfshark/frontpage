@@ -3,7 +3,7 @@ import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "lp-items"
 
 export const metadata: Metadata = {
-  title: "Next.js Enterprise Boilerplate",
+  title: "Thin in Coin - $Neurons",
   twitter: {
     card: "summary_large_image",
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
       {
         width: 1200,
         height: 630,
-        url: "https://raw.githubusercontent.com/Blazity/next-enterprise/main/.github/assets/project-logo.png",
+        url: "https://github.com/ThinkinCoin/website/blob/develop/wp-content/uploads/2023/06/LOGOMARCA-1.png",
       },
     ],
   },
@@ -26,21 +26,27 @@ export default function Web() {
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              Next.js Enterprise Boilerplate
+              Think in Coin - Academy for blockchain investors
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              Jumpstart your enterprise project with our feature-packed, high-performance Next.js boilerplate!
-              Experience rapid UI development, AI-powered code reviews, and an extensive suite of tools for a smooth and
-              enjoyable development process.
+            The Think, in Coin project holds importance for reasons. One of the reasons is its focus on providing education in cryptocurrency. As the crypto industry continues to grow there is a pressing need for high quality courses that help both newcomers and experienced enthusiasts understand the intricacies of blockchain, decentralized finance and tokenomics.
+
+Another significant aspect of Think in Coin is how it empowers enthusiasts. By offering a range of courses it enables individuals to make informed decisions when navigating the crypto space. This knowledge equips them with confidence to engage in activities like investment, trading and other crypto related pursuits.
+
+Think in Coin also emphasizes community engagement through its meme creation service. This service allows crypto enthusiasts to explore creation fostering innovation and collaboration within the crypto community.
+
+Furthermore Think in Coin demonstrates its commitment to keeping up with industry trends. By staying updated on the developments in the space it ensures that its educational content and services remain relevant amidst an ever changing landscape.
+
+In summary Think in Coin plays a role in democratizing access to cryptocurrency knowledge while promoting community engagement. It contributes significantly to the growth and innovation, within the cryptocurrency ecosystem.
             </p>
-            <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
-              Get started
+            <Button href="https://github.com/ThinkinCoin/website" className="mr-3">
+              Repository
             </Button>
             <Button
-              href="https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise"
+              href="https://docs.thinkincoin.com"
               intent="secondary"
             >
-              Deploy Now
+              Docs
             </Button>
           </div>
         </div>
